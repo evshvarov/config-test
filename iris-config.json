@@ -1,0 +1,19 @@
+{
+    "Defaults":{
+        "DBDIR" : "${MGRDIR}",
+        "DBDATA" : "${DBDIR}irisapp/"
+    },
+    "SYS.Databases":{
+        "${DBDATA}" : {}
+    },
+    "Databases":{
+        "IRISAPP" : {
+            "Directory" : "${DBDATA}"
+        }
+    },
+    "Namespaces":{
+        "IRISAPP": {
+            "Globals":"IRISAPP"
+        }
+    }
+    }
